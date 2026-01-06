@@ -809,3 +809,98 @@ hr {
     border-color: #ffffff;
     border-radius: 15px; /* تأكيد الانحناء عند التفاعل */
 }
+
+
+
+
+/* ===============================
+   MOBILE RESPONSIVE – ALL SECTIONS
+================================ */
+@media (max-width: 768px) {
+
+  /* منع التمرير الأفقي */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* النصوص */
+  h1 { font-size: 34px; line-height: 1.3; }
+  h2 { font-size: 28px; }
+  h3 { font-size: 20px; }
+  p  { font-size: 15px; line-height: 1.7; }
+
+  /* الهيدر */
+  #header .intro {
+    height: auto;
+    padding: 120px 20px;
+  }
+
+  /* زر Learn More */
+  .btn-custom {
+    font-size: 15px;
+    padding: 12px 22px;
+  }
+
+  /* الأقسام */
+  #about,
+  #services,
+  #portfolio,
+  #contact {
+    padding: 90px 20px;
+  }
+
+  /* الصور */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ABOUT */
+  #about img {
+    margin-bottom: 30px;
+  }
+
+  /* SERVICES */
+  #services .service {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  /* PROJECTS */
+  .portfolio-item {
+    margin-bottom: 25px;
+  }
+
+  /* CONTACT */
+  #contact form {
+    padding: 0;
+  }
+
+  #contact .form-control {
+    font-size: 14px;
+  }
+
+  /* NAVBAR */
+  #menu a.navbar-brand {
+    font-size: 18px;
+    line-height: 60px;
+  }
+
+  #menu.navbar-default .navbar-nav > li > a {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /* FOOTER – Social Icons */
+  #footer .social ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  #footer .social ul li {
+    margin: 0;
+  }
+
+}
